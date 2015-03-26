@@ -7,4 +7,5 @@ for l in leitura:
     if l2!="":
         X.append(l2)
 print(X)
+
         

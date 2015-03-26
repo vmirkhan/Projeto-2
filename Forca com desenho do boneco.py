@@ -26,30 +26,59 @@ erros = 0
 lapis.width(3)
 
 def desenha_boneco():
-    if erros == 0:
+    if erros == 1:
         lapis.color("white")
         lapis.penup()
         lapis.setpos(-330,170)
         lapis.pendown()
         lapis.circle(30)
-    if erros == 0:
+    if erros == 2:
         lapis.penup()
         lapis.setpos(-300, 140)
         lapis.pendown()
         lapis.right(0)
         lapis.forward(70)
-    if erros == 0:
+    if erros == 3:
         lapis.penup()
         lapis.setpos(-300,70)
         lapis.pendown()
         lapis.right(30)
         lapis.forward(50)
-    if erros == 0:
+    if erros == 4:
         lapis.penup()
         lapis.setpos(-300,70)
         lapis.pendown()
         lapis.left(60)
         lapis.forward(50)
+    if erros == 5:
+        lapis.penup()
+        lapis.setpos(-300,120)
+        lapis.pendown()
+        lapis.right(70)
+        lapis.forward(35)
+        lapis.penup()
+        lapis.color("green")
+        lapis.setpos(-330,95)
+        lapis.pendown()
+        lapis.circle(5)
+    if erros == 6:
+        lapis.penup()
+        lapis.setpos(-300,120)
+        lapis.pendown()
+        lapis.color("white")
+        lapis.left(80)
+        lapis.forward(35)
+        lapis.penup()
+        lapis.setpos(-280,87)
+        lapis.pendown()
+        lapis.color("green")
+        lapis.circle(5)
+        lapis.penup()
+        lapis.setpos(40, 150)
+        lapis.pendown()
+        lapis.color("blue")
+        lapis.write("PARABÉNS! VOCÊ É BURRO!", font = ("Arial",30 , "normal"))
+        
 
 desenha_boneco()
 
